@@ -1,8 +1,12 @@
 {
   "name": "@gumbo/book",
   "description": "Program to create a PDF book of all quotes of last year, used for St Nicholas",
+  "version": "0.1.0",
   "license": "MIT",
   "type": "module",
+  "bin": {
+    "gumbo-book": "gumbo-book.mjs"
+  },
   "scripts": {
     "start": "node index.mjs",
     "dev": "parcel src/index.html",
