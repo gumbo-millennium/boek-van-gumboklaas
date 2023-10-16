@@ -14,9 +14,12 @@
   },
   "dependencies": {
     "@inquirer/prompts": "^3.2.0",
+    "axios": "^1.5.1",
     "chalk": "^5.3.0",
     "commander": "^11.1.0",
-    "flat-cache": "^3.1.1"
+    "flat-cache": "^3.1.1",
+    "ora": "^7.0.1",
+    "puppeteer": "^21.3.8"
   },
   "devDependencies": {
     "parcel": "^2.10.0",
