@@ -8,9 +8,8 @@
     "gumbo-book": "gumbo-book.mjs"
   },
   "scripts": {
-    "start": "node index.mjs",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./"
+    "build": "rimraf dist && parcel build src/index.html --public-url ./"
   },
   "dependencies": {
     "@inquirer/prompts": "^3.2.0",
@@ -25,6 +24,7 @@
   "devDependencies": {
     "parcel": "^2.10.0",
     "postcss": "^8.4.31",
+    "rimraf": "^5.0.5",
     "sharp": "^0.31.3",
     "tailwindcss": "^3.3.3"
   },
