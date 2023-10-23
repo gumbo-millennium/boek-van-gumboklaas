@@ -29,5 +29,25 @@
             <img class="h-16" src="assets/logo.svg" alt="Logo van Gumbo Millennium">
         </div>
     </template>
+
+    <template data-content="index-template">
+        <div class="flex flex-row mb-1">
+            <div class="flex-none">
+                <h3 class="font-quote text-sm text-quote-primary" data-content="name">Sam Smith</h3>
+            </div>
+            <div class="flex-auto text-right">
+                <p class="font-quote text-xs text-quote-primary" data-content=pages>400, 200, 201</p>
+            </div>
+        </div>
+    </template>
+
+    <div data-content="quotes"></div>
+
+    <div data-content="index" class="hidden">
+        <div class="w-screen h-screen px-32 py-16">
+            <h2 class="font-quote text-quote-primary text-3xl leading-28 font-bold">Index</h2>
+            <div class="mt-4 columns-3 gap-4" data-content="index-list"></div>
+        </div>
+    </div>
 </body>
 </html>
